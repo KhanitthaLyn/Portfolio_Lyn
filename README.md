@@ -10,7 +10,7 @@ A modern and responsive developer portfolio built with **HTML, CSS, and JavaScri
 
 ## 🚀 Live Demo
 
-🔗 **[View Portfolio on GitHub Pages](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)**  
+🔗 **[View Portfolio on GitHub Pages](https://khanitthalyn.github.io/Portfolio_Lyn/)**  
 *(Replace with your actual GitHub username and repository name)*
 
 ---
@@ -23,12 +23,6 @@ A modern and responsive developer portfolio built with **HTML, CSS, and JavaScri
 ✅ Clickable project cards that open in a new tab  
 ✅ Clean section organization: Hero, Projects, Tech Stack, Timeline, and Info  
 ✅ Dark/Light mode toggle remembered across sessions  
-
----
-
-## 🖼️ Preview
-
-![Portfolio Preview](assets/preview.png)
 
 ---
 
