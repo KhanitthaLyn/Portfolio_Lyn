@@ -10,48 +10,45 @@
 </head>
 
 <body>
-  <!-- ===== NAVBAR ===== -->
   <header class="navbar">
     <div class="logo">Khanittha<span>.</span></div>
     <nav class="nav-links">
       <a href="#home">Home</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
-      <a href="#info">Info</a>
+      <a href="#additional-info">Additional Information</a>
     </nav>
     <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
   </header>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="home">
-    <div class="hero-container">
-      <div class="hero-image">
-        <img src="images/profile.jpg" alt="Profile of Khanittha" />
+<section class="hero" id="home">
+  <div class="hero-container">
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Profile of Khanittha" />
+    </div>
+
+    <div class="hero-text">
+      <h1>Hey, I'm <span>Khanittha</span></h1>
+      <h2>Java <span class="highlight">Software Engineer</span></h2>
+
+      <p>
+        Backend-focused developer skilled in <b>Java, Spring Boot, REST APIs, JWT/OAuth2, and SQL</b>.<br>
+        Actively gaining practical experience through building a production-style E-Commerce backend and exploring microservices fundamentals.<br>
+        Preparing to relocate to <b>Germany in 2026</b>.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/KhanitthaLyn" target="_blank"><img src="images/icons/github.svg" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/khanittha-tantrongdee-lyn122535/" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://www.upwork.com/freelancers/~0134e8a3b04f0e39ae?mp_source=share" target="_blank"><img src="images/icons/upwork.svg" alt="Upwork"></a>
       </div>
 
-      <div class="hero-text">
-        <h1>Hey, I'm <span>Khanittha</span></h1>
-        <h2>I'm a <span class="highlight">Full Stack Software Engineer-Backend Software Engineer</span></h2>
-        <p>
-          Junior Software Developer passionate about <b>Backend & SAP Development</b>. Preparing to move to <b>Germany in 2026</b>.<br>
-          Currently learning <b>Java, Spring Boot, OAuth2, JWT, React, and AI Automation</b>.
-        </p>
-
-        <!-- Social Icons -->
-        <div class="social-icons">
-          <a href="https://github.com/KhanitthaLyn" target="_blank"><img src="images/icons/github.svg" alt="GitHub"></a>
-          <a href="https://www.linkedin.com/in/khanittha-tantrongdee-lyn122535/" target="_blank"><img src="images/icons/linkedin.svg" alt="LinkedIn"></a>
-          <a href="https://www.upwork.com/freelancers/~0134e8a3b04f0e39ae?mp_source=share" target="_blank"><img src="images/icons/upwork.svg" alt="Upwork"></a>
-        </div>
-
-        <!-- Remaining Button -->
-        <div class="cta-buttons">
-          <a href="docs/MyCV.pdf" class="btn secondary" download>Download CV</a>
-        </div>
+      <div class="cta-buttons">
+        <a href="docs/Khanittha Tantrongdee - Java Software Engineer.pdf" class="btn secondary" download>Download CV</a>
       </div>
     </div>
-  </section>
-
+  </div>
+</section>
 
 <section class="project-showcase">
   <h3 class="project-header">My Projects</h3>
@@ -89,79 +86,53 @@
   </div>
 </section>
 
+<section class="section timeline" id="experience">
+  <h2 class="title">Work Experience</h2>
 
-  <!-- ===== WORK EXPERIENCE ===== -->
- <section class="section timeline" id="experience">
-    <h2 class="title">Work Experience</h2>
+  <div class="card">
+    <h3>Independent Java Backend Developer (Remote)</h3>
+    <p class="meta">Sep 2023 – Present | Freelance / Personal Projects</p>
+    <ul>
+      <li>Developed backend applications using <b>Java 21</b>, <b>Spring Boot 3</b>, and <b>PostgreSQL/MySQL</b>, focusing on clean and maintainable code.</li>
+      <li>Built a complete <b>Monolithic E-Commerce Backend</b> with modules for Product Management, Inventory, Cart/Checkout, and Order workflows.</li>
+      <li>Implemented <b>Spring Security 6</b> with <b>JWT authentication</b> and <b>Role-Based Access Control (RBAC)</b> to secure API endpoints.</li>
+      <li>Designed and documented <b>RESTful APIs</b> with input validation, consistent error handling, and structured responses for frontend integration.</li>
+      <li>Exploring <b>Microservices Architecture</b> by refactoring selected modules into independent services using Docker.</li>
+    </ul>
+  </div>
 
-    <div class="card">
-      <h3>Independent Full-stack Developer (Personal Projects)</h3>
-      <p class="meta">Freelance | Sep 2023 – Present | Remote</p>
-      <ul>
-        <li>Designed and developed multiple personal web apps using <b>Java (Spring Boot)</b> and <b>ReactJS</b>.</li>
-        <li>Built E-Commerce system with product, user & order management modules, <b>JWT authentication</b> and <b>RESTful APIs</b>.</li>
-        <li>Integrated <b>MySQL database</b> with Spring Data JPA and optimized backend logic for performance.</li>
-        <li>Practiced <b>Spring Security 6, OAuth2, and Spring AI</b> for enterprise integration.</li>
-        <li>Collaborated on developer communities to learn <b>Docker, AWS, and CI/CD deployment</b>.</li>
-        <li>🚀 Currently building portfolio projects and preparing for Germany-based backend roles.</li>
-      </ul>
-    </div>
+  <div class="card">
+    <h3>Digital Operations & Platform Coordinator</h3>
+    <p class="meta">THE LIGHT CLASS | Contract | Nov 2021 – Present</p>
+    <ul>
+      <li>Managed daily <b>e-learning platform operations</b>, ensuring accurate user enrollments, payment workflows, and smooth content delivery.</li>
+      <li>Diagnosed and coordinated fixes for platform-related issues to maintain service continuity.</li>
+      <li>Improved internal workflows by analyzing user behavior and operational bottlenecks.</li>
+      <li>Performed platform customization through <b>HTML/CSS/JS/PHP</b> updates and implemented small system enhancements.</li>
+      <li>Collaborated with stakeholders to clarify requirements for platform updates and technical improvements.</li>
+    </ul>
+  </div>
 
-    <div class="card">
-      <h3>Customer Service / Service Design (with Web Development Responsibilities)</h3>
-      <p class="meta">THE LIGHT CLASS | Contract | Nov 2021 – Present | Thailand</p>
-      <ul>
-        <li>Designed and optimized client service workflows via digital platforms and data-driven insights.</li>
-        <li>Took on <b>web development responsibilities</b> managing and enhancing the company platform — <em>thelightclass.com</em>.</li>
-        <li>Implemented <b>API integrations</b>, website improvements, and system performance optimizations.</li>
-        <li>Collaborated with international clients to analyze requirements and deliver digital solutions.</li>
-        <li>Produced <b>technical documentation</b> and facilitated agile project delivery.</li>
-      </ul>
-    </div>
+</section>
 
-    <div class="card">
-      <h3>Research Assistant</h3>
-      <p class="meta">Work from Home Jobs | Contract | Mar 2018 – May 2019 | Thailand</p>
-      <ul>
-        <li>Conducted research and analyzed qualitative and quantitative data sets.</li>
-        <li>Processed and organized data using <b>Excel, SQL</b>, and statistical software.</li>
-        <li>Fact-checked and proofread reports for accuracy and reliability.</li>
-        <li>Applied <b>agile communication</b> methods for remote team coordination.</li>
-        <li>Developed <b>analytical & technical documentation</b> skills as a foundation for backend development.</li>
-      </ul>
-    </div>
+<section class="section timeline" id="education">
+  <h2 class="title">Education</h2>
+  <div class="card">
+    <h3>B.Sc. Computer Science</h3>
+    <p class="meta">Sukhothai Thammathirat Open University | Sep 2022 – Present</p>
+    <p>Developed a Spring Boot + MySQL web application focusing on form input handling and backend logic using Java OOP. Expected Graduation: Jan–Feb 2026.</p>
+  </div>
 
-    <div class="card">
-      <h3>Administrative Assistant</h3>
-      <p class="meta">Oxford Street English Academy | Full-time | Jul 2017 – Mar 2020 | Thailand</p>
-      <ul>
-        <li>Managed academic records and student data systems with accuracy and security.</li>
-        <li>Coordinated workflows including payroll, scheduling, and reporting.</li>
-        <li>Developed <b>digital tools</b> to improve communication and program tracking.</li>
-        <li>Supported student visa and counseling for Thai students abroad.</li>
-        <li>Gained experience in <b>database management & information systems</b>, inspiring a career in software development.</li>
-      </ul>
-    </div>
-  </section>
+  <div class="card">
+    <h3>B.Sc. International Development</h3>
+    <p class="meta">Mae Fah Luang University | Aug 2013 – Aug 2016</p>
+    <p>Completed foundational studies with emphasis on research, communication, and analytical skills.</p>
+  </div>
+</section>
 
-  <!-- ===== EDUCATION ===== -->
-  <section class="section timeline" id="education">
-    <h2 class="title">Education</h2>
-    <div class="card">
-      <h3>B.Sc. in Computer Science</h3>
-      <p class="meta">Sukhothai Thammathirat Open University | Sep 2022 – Present</p>
-      <p>Developed Spring Boot + MySQL project using Java OOP for web form input and backend logic.</p>
-    </div>
-    <div class="card">
-      <h3>B.A. in International Development</h3>
-      <p class="meta">Mae Fah Luang University | Aug 2013 – Aug 2016</p>
-      <p>Focused on practical skills, project management, and international exchange in sustainable development.</p>
-    </div>
-  </section>
 
 <section class="section" id="techstack">
   <h2 class="title">💻 Tech Stack</h2>
-
   <div class="stack-group">
     <h3>🧩 Backend</h3>
     <div class="stack-icons">
@@ -169,7 +140,7 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
       <img src="https://cdn.simpleicons.org/jsonwebtokens/000000" alt="JWT">
       <img src="https://cdn.simpleicons.org/lombok/EA2845" alt="Lombok">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <img src="https://cdn.simpleicons.org/apachemaven/1565c0" alt="Maven">
     </div>
   </div>
 
@@ -193,18 +164,14 @@
   </div>
 
   <div class="stack-group">
-    <h3>⚙️ Tools + 🧠 AI & Automation</h3>
+    <h3>⚙️ Tools + AI</h3>
     <div class="stack-icons">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ">
-      <img src="https://cdn.simpleicons.org/openai/00A67E" alt="ChatGPT">
+      <img src="https://cdn.simpleicons.org/openai/00A67E" alt="OpenAI API">
       <img src="https://cdn.simpleicons.org/githubcopilot/00A67E" alt="GitHub Copilot">
-      <img src="https://cdn.simpleicons.org/openai/412991" alt="OpenAI API">
-      <img src="https://cdn.simpleicons.org/obsidian/000000" alt="Chat Blackbox">
-      <img src="https://cdn.simpleicons.org/google/4285F4" alt="Gemini">
-      <img src="https://cdn.simpleicons.org/anthropic/9552FA" alt="Claude">
     </div>
   </div>
 
@@ -216,7 +183,6 @@
   </div>
 </section>
 
-<!-- ===== ADDITIONAL INFO ===== -->
 <section id="additional-info" class="section">
   <h2 class="title">🧠 Additional Information</h2>
 
@@ -225,7 +191,7 @@
       <h3>💛 Soft Skills</h3>
       <ul>
         <li>💡 Problem-solving & Analytical Thinking</li>
-        <li>🧭 Self-learning / Project Management</li>
+        <li>🧭 Self-learning / Independent Project Management</li>
         <li>💬 Communication & Collaboration</li>
         <li>⚡ Adaptability & Proactiveness</li>
       </ul>
@@ -236,12 +202,11 @@
       <ul>
         <li>🇹🇭 Thai — Native</li>
         <li>🇬🇧 English — B2</li>
-        <li>🇩🇪 German — B1 (Duolingo)</li>
+        <li>🇩🇪 German — A2→B1 (exam planned 2026)</li>
       </ul>
     </div>
   </div>
 </section>
-
 
   <footer class="footer">
     © 2025 Khanittha Tantrongdee
